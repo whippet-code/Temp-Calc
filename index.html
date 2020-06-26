@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Calculator - Mark Ivkovic</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <!-- 
     1. Area marked for INPUT
@@ -11,6 +12,18 @@
     3. Area for OUTPUT of conversion dynamically updates the OUTPUT when CALC is clicked
 -->
 <body>
-    
-</body>
+    <h1>Temperature Calculator</h1>
+    <p class="instructions">Convertor from degrees celcius to kelvin</p>
+    <div>
+        <div class="input_form">
+            <form>
+                <label for="tempC">Input temperature in celcius</label>
+                <input type="number" name="tempC" id="tempC">
+                <label for="calc"></label>
+                <input type="submit" name="calc" id="calc" onclick="cToK()">
+            </form>
+            <h3>Temperature in K: </h3><h3 id="output">00000</h3>
+        </div>
+    </div>    
+<script src="./script.js" type=""></script>
 </html>
