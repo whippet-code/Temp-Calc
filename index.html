@@ -20,9 +20,12 @@
                 <label for="tempC">Input temperature in celcius</label>
                 <input type="number" name="tempC" id="tempC">
                 <label for="calc"></label>
-                <input type="submit" name="calc" id="calc" onclick="cToK()">
+                <input type="button" name="calc" id="calc" onclick="cToK()" value="Calculate">
             </form>
-            <h3>Temperature in K: </h3><h3 id="output">00000</h3>
+            <div class="out_line">
+                <p id="outText">Temperature in K: </p>
+                <p id="output">----</p>
+            </div>
         </div>
     </div>    
 <script src="./script.js" type=""></script>

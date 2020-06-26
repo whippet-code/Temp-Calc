@@ -1,1 +1,43 @@
 /* Style the INPUT, CALC button & OUTPUT so it's clear what role each of them plays on webpage. */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    color: pink;
+    background: rgb(55,55,55);
+    background: linear-gradient(121deg, rgba(55,55,55,1) 0%, rgba(119,119,119,1) 50%, rgba(224,224,224,1) 100%);
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+.instructions {
+    text-align: center;
+}
+.input_form {
+    border: 1px solid black;
+    padding: 20px 10px 10px 10px;
+}
+form {
+    text-align: center;
+    margin: auto;
+}
+h3 {
+    color: lightgray;
+}
+.out_line {
+    width: 300px;
+    margin: 5px auto;
+    border: 2px double grey;
+}
+#outText {
+    float: left;
+    padding-left: 5px;
+}
+#output {
+    text-align: center;
+    padding-left: 20px;
+    color: antiquewhite;
+    font-style: italic;
+}
