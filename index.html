@@ -18,9 +18,9 @@
         <div class="input_form">
             <form>
                 <label for="tempC">Input temperature in celcius</label>
-                <input type="number" name="tempC" id="tempC">
+                <input type="number" name="tempC" id="tempC" onkeyup="cToK()">
                 <label for="calc"></label>
-                <input type="button" name="calc" id="calc" onclick="cToK()" value="Calculate">
+                <input type="button" name="calc" id="calc" onclick="cToK()" value="Submit">
             </form>
             <div class="out_line">
                 <p id="outText">Temperature in K: </p>
